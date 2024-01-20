@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&family=Inter:wght@200;300;400;500;700;900&family=Kanit:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,200&family=Nanum+Myeongjo:wght@400;700;800&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Restaurant</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#reservation">Reservation</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <main class="hero-section">
+      <div class="hero-content">
+          <h1 class="hero-heading">Eat The Best</h1>
+          <p class="hero-line"> WE CREATE THE PERFECT PAIRING OF FOOD AND WINE.</p>
+
+          <div class="hero-action-btn-container">
+            <a href="#reservation"><button class="btn" type="submit">Reserve Table</button></a>
+          </div>
+      </div>
+    </main>
+  </header>
+
+  <div class="menu" id="menu">
+    <div class="menu-section">
+      <h2 class="menu-heading">Menu List</h2>
+
+      <div class="details">
+        <h3 class="listss">Seared Scallops with Citrus Beurre Blane</h3>
+        <div class="content">
+          <span class="list-item__dots"></span>
+        <span class="list-item__price">$7</span>
+        </div>
+      </div>
+
+      <div class="details">
+        <h3 class="list">Mozzarella Caprese</h3>
+        <div class="content">
+          <span class="list-item__dots"></span>
+        <span class="list-item__price">$9</span>
+        </div>
+      </div>
+
+      <div class="details">
+        <h3 class="lists">Caprese Salad Tower</h3>
+        <div class="content">
+          <span class="list-item__dots"></span>
+        <span class="list-item__price">$8</span>
+        </div>
+      </div>
+
+      <div class="details">
+        <h3 class="list">Charcuterie Board</h3>
+        <div class="content">
+          <span class="list-item__dots"></span>
+        <span class="list-item__price">$13</span>
+        </div>
+      </div>
+
+      <div class="menu-btn-container">
+        <button class="btn" type="submit">Full Menu</button>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="reservation" id="reservation">
+    <div class="reserve-container">
+      <h2 class="reservation-heading">Reserve a Table</h2>
+
+      <div class="reserve">
+        <form action="" class="formInput">
+          <input type="text" name="fName" id="fName" placeholder="Full Name" required>
+          <input type="text" name="email" id="email" placeholder="Email" required>
+          <input type="number" name="pNumber" id="pNumber" placeholder="Phone Number" required>
+          <input type="datetime" name="Date" id="date" placeholder="Date" required>
+          
+          <div class="reserve-btn-container">
+            <button class="btn" type="submit">Reserve Table</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="gallery" id="gallery">
+    <div class="gallery-bg">
+      <img src="./assets/images/gallery1.jpg" alt="gallery1">
+      <img src="./assets/images/gallery2.jpg" alt="gallery2">
+      <img src="./assets/images/gallery3.jpg" alt="gallery3">
+      <img src="./assets/images/gallery4.jpg" alt="gallery4">
+      <img src="./assets/images/gallery5.jpg" alt="gallery5">
+    </div>
+    <h5 class="gallery-heading"> Photo Gallery</h5>
+  </div>
+
+  <div class="contact">
+    <div class="contacts">
+      <h5 class="contact-heading">Contact Us</h5>
+      <p class="contact-details">9W 53rd St. New York, NY 10019, USA
+        09122971136
+        07042683096.
+      </p>
+    </div>
+
+    <div class="work">
+      <h5 class="working-hour">Working Hours</h5>
+      <p class="working-details">Monday - Friday 
+         10:00 Am - 12:00 Am
+         Saturday - Sunday
+         09:00 Am - 12:00 Am</p>
+    </div>
+
+    <div class="socials">
+      <h5 class="social-heading">Socials</h5>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-facebook"></i>
+    </div>
+  </div>
+</body>
+</html>
